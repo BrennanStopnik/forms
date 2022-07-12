@@ -8,18 +8,44 @@
     <title>Document</title>
 </head>
 <body>
+
+    <h1>Your Pizza Order</h1>
     <form>
-        <input id="userInput" type="text" autocomplete="off">
-        <input id="submitButton" type="submit">
-        <br>
+        <div>
+            <label>Enter name for Delivery:</label>
+            <input id="userInput" type="text" autocomplete="off" placeholder="Enter name here">
+        </div>
         
+        <div>
+            <h3>Toppings</h3>
+            <div>
+                <input id="pepperoni" type="checkbox">
+                <label>Pepperoni</label>
+            </div>
+            <div>
+                <input id="mushrooms" type="checkbox">
+                <label>Mushrooms</label>
+            </div>
+            <div>
+                <input id="pineapple" type="checkbox">
+                <label>Pineapple</label>
+            </div>
+            <div>
+                <input id="jalapeno" type="checkbox">
+                <label>Jalapeno</label>
+            </div>
+            <br>
+            <div>
+                <input id="submitButton" type="submit">
+            </div>
+        </div>
     </form>
 
 
 
 
-    
-    <form>
+
+    <!-- <form>
         <p>radio</p>
         <input type="radio">
         <br>
@@ -42,7 +68,7 @@
         <p>reset</p>
         <input type="reset">
     </form>
-    
+     -->
 
     <script src="main.js"></script>
 </body>
