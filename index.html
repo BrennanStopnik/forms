@@ -8,14 +8,12 @@
     <title>Document</title>
 </head>
 <body>
-
     <h1>Your Pizza Order</h1>
     <form>
         <div>
             <label>Enter name for Delivery:</label>
             <input id="userInput" type="text" autocomplete="off" placeholder="Enter name here">
         </div>
-        
         <div>
             <h3>Toppings</h3>
             <div>
@@ -34,10 +32,29 @@
                 <input id="jalapeno" type="checkbox">
                 <label>Jalapeno</label>
             </div>
-            <br>
+        </div>
+        <div>
+            <h3>Crust Type</h3>
             <div>
-                <input id="submitButton" type="submit">
+                <input id="normal" type="radio" name="crust">
+                <label>Normal</label>
             </div>
+            <div>
+                <input id="thin" type="radio" name="crust">
+                <label>Thin</label>
+            </div>
+            <div>
+                <input id="thick" type="radio" name="crust">
+                <label>Thick</label>
+            </div>
+            <div>
+                <input id="deep-dish" type="radio" name="crust">
+                <label>Deep Dish</label>
+            </div>
+        </div>
+        <br>
+        <div>
+            <input id="submitButton" type="submit">
         </div>
     </form>
 
